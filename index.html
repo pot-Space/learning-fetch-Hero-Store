@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hero store</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+   <div class="container">
+
+      <div class="main-wrapper">
+         <aside>
+            <header>
+               <h1>Hero store</h1>
+               <hr>
+            </header>
+
+            <form>
+               <div>
+                  <label for="category">Choose a hero:</label>
+                  <select id="category">
+                     <section id="category">
+                        <option selected>all</option>
+                        <option>Strength</option>
+                        <option>Dexterity</option>
+                        <option>Intelligence</option>
+                     </section>
+                  </select>
+               </div>
+
+               <div>
+                  <label for="searchTerm">Enter search term:</label>
+                  <input type="text" id="searchTerm" placeholder="search . . .">
+               </div>
+
+               <div>
+                  <button>Filter</button>
+               </div>
+            </form>
+         </aside>
+
+         <main>
+            <section tabindex="0">
+               <img src="images/name_E.png" alt="">
+               <span title="description">S</span>
+               <h2>Lorem ipsum dolor</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus neque similique eligendi
+                  nesciunt ex quis, quam laborum expedita, beatae quasi voluptatum dolores rem? Veritatis repudiandae
+                  quae tenetur odio repellat.</p>
+            </section>
+         </main>
+      </div>
+
+      <footer></footer>
+
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+[
+   {
+      "name": "a",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "strength"
+   },
+   {
+      "name": "b",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "dexterity"
+   },
+   {
+      "name": "c",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "intelligence"
+   },
+   {
+      "name": "d",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "strength"
+   },
+   {
+      "name": "e",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "dexterity"
+   },
+   {
+      "name": "f",
+      "price": 1000,
+      "image": "name_E.png",
+      "type": "intelligence"
+   }
+]
